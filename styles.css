@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #614385, #516395);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    position: relative;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.canvas {
+    border: 2px solid #333;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.top,
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.block,
+input,
+select,
+button {
+    width: 100%;
+}
+
+.block {
+    margin: 10px;
+}
+
+.block > p {
+    margin: 10px auto;
+    width: auto;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.custom-select {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #28a745, #6dd5ed);
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #fbc531, #f2c094);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
